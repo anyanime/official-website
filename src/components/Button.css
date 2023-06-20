@@ -1,0 +1,16 @@
+button {
+    color: white;
+    font-weight: 500;
+    font-size: large;
+    text-transform: uppercase;
+    background-color: rgb(18, 18, 209);
+    width: 287px;
+    height: 40px;
+    border: none;
+    border-radius: 16px;
+}
+
+button:hover {
+    background-color: rgb(3, 3, 131);
+    font-size: larger;
+}
