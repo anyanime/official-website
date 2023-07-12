@@ -1,12 +1,12 @@
 import React from 'react'
 import {FaFacebookSquare, FaGithubSquare, FaInstagramSquare, FaLinkedinIn, FaTwitterSquare} from 'react-icons/fa';
-import './SocialMediaIcons.css'
 
 
 
-const SocilMediaIcons = props => {
+
+const SocialMediaIcons = props => {
   return (
-    <div {...props} className='social-icons'>
+    <div {...props} className='mt-64 absolute gap-3 mr-6 text-3xl text-white'>
       <a href='https://github.com/anyanime' target='_blank' rel='noreferrer'>
         <FaGithubSquare />
       </a>
@@ -27,4 +27,4 @@ const SocilMediaIcons = props => {
   )
 }
 
-export default SocilMediaIcons
+export default SocialMediaIcons
