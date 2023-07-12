@@ -90,7 +90,7 @@ function getForwards(collectedScripts) {
 
 exports.components = {
   "component---cache-dev-404-page-js": () => __webpack_require__.e(/*! import() | component---cache-dev-404-page-js */ "component---cache-dev-404-page-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../dev-404-page.js?export=default */ "./.cache/dev-404-page.js?export=default")),
-  "component---src-pages-app-js": () => __webpack_require__.e(/*! import() | component---src-pages-app-js */ "component---src-pages-app-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/App.js?export=default */ "./src/pages/App.js?export=default")),
+  "component---src-pages-about-js": () => __webpack_require__.e(/*! import() | component---src-pages-about-js */ "component---src-pages-about-js").then(__webpack_require__.t.bind(__webpack_require__, /*! ./../../../src/pages/about.js?export=default */ "./src/pages/about.js?export=default", 23)),
   "component---src-pages-index-js": () => __webpack_require__.e(/*! import() | component---src-pages-index-js */ "component---src-pages-index-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/index.js?export=default */ "./src/pages/index.js?export=default"))
 };
 
@@ -4903,17 +4903,6 @@ if (false) {} else {
   module.exports = __webpack_require__(/*! ./cjs/react-is.development.js */ "./node_modules/prop-types/node_modules/react-is/cjs/react-is.development.js");
 }
 
-
-/***/ }),
-
-/***/ "react-dom/client":
-/*!*******************************************************************************************************************!*\
-  !*** external "/home/anyanime/program/practice/react-projects/official-website/node_modules/react-dom/client.js" ***!
-  \*******************************************************************************************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("/home/anyanime/program/practice/react-projects/official-website/node_modules/react-dom/client.js");
 
 /***/ }),
 

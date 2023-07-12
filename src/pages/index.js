@@ -3,7 +3,7 @@ import Header from '../components/Header'
 
 const index = () => {
   return (
-    <div>
+    <div className='bg-black h-screen'>
       <Header />
     </div>
   )
@@ -11,5 +11,5 @@ const index = () => {
 
 export default index
 
-  
+
 
