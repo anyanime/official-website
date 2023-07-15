@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from '../images/logo.png';
-import './Navbar.css';
 import { Link } from 'gatsby';
 
 
