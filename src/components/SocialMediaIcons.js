@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import {FaFacebookSquare, FaGithubSquare, FaInstagramSquare, FaLinkedinIn, FaTwitterSquare} from 'react-icons/fa';
 
 
@@ -6,7 +6,7 @@ import {FaFacebookSquare, FaGithubSquare, FaInstagramSquare, FaLinkedinIn, FaTwi
 
 const SocialMediaIcons = props => {
   return (
-    <div {...props} className='mt-64 absolute gap-3 mr-6 text-3xl text-white'>
+    <div {...props} className='mt-64 absolute gap-4 mr-10 text-4xl text-white'>
       <a href='https://github.com/anyanime' target='_blank' rel='noreferrer'>
         <FaGithubSquare />
       </a>
