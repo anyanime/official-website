@@ -1,7 +1,7 @@
 module.exports = {
     plugins: [
       'gatsby-plugin-postcss',
-      `gatsby-plugin-netlify`
+      'gatsby-plugin-netlify',
       // ...
     ],
   }
