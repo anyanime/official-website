@@ -13,11 +13,11 @@ const index = () => {
       <Header />
       <SocialMediaIcon />
       <div className='flex justify-center items-center h-5/6 flex-col-reverse gap-9 text-white p-7 md:flex-row'>
-        <div className='justify-start items-center p-6 leading-10'>
+        <div className='justify-start items-center p-6 leading-6'>
           <h1 className='font-medium text-5xl'>Hello!</h1>
           <h3 className='text-2xl'>I am Anyanime Benson</h3>
-          <h2 className='lg:text-3xl xl:text-4xl uppercase font-bold mt-4'>Creative Writer <br /> Software Engineer</h2>
-          <p className='mt-4 text-xl'>I harness my creativity as a writer <br/> 
+          <h2 className='text-2xl lg:text-4xl uppercase font-bold mt-3'>Creative Writer <br/> Software Engineer</h2>
+          <p className='mt-4 text-xl sm:text-xl'>I harness my creativity as a writer <br/> 
             and knowledge of technology with practical ideas <br/> 
             to bring about solutions to problem while maintaining <br/> 
             a fun and productive work environment.</p>
@@ -33,6 +33,9 @@ const index = () => {
     </div>
   )
 }
+
+//Gatsby Head API
+export const Head = () => <title>Homepage</title>
 
 export default index
 
