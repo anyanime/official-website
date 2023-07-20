@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className='m-0 flex justify-between p-2 bg-black'>
       <img className='h-9 w-8 rounded-full' src={Image} alt='logo' />      
-      <nav className='text-white text-lg space-x-3 mr-6'>
+      <nav>
         <NavLink to='/'>Home</NavLink>
         <NavLink to='/about'>About</NavLink>
         <NavLink to='/contact'>Reach Out</NavLink>
