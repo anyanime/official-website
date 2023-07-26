@@ -5,13 +5,13 @@ import NavLink from './NavLink';
 
 const Header = () => {
   return (
-    <div className='m-0 flex justify-between p-2 bg-black'>
+    <div className='m-0 flex justify-between p-4'>
       <img className='h-9 w-8 rounded-full' src={Image} alt='logo' />      
       <nav>
         <NavLink to='/'>Home</NavLink>
         <NavLink to='/about'>About</NavLink>
-        <NavLink to='/contact'>Reach Out</NavLink>
         <NavLink to='/portfolio'>Portfolio</NavLink>
+        <NavLink to='/contact'>Reach Out</NavLink>
       {/* <ul>
         <li className='active'><a href='#home'>HOME</a></li>
         <li><a href='#about'>ABOUT</a></li>
