@@ -1,11 +1,36 @@
 import React from 'react'
 import {Link } from 'gatsby'
 
-const Button = () => {
+const Button = props => {
+  const type = props.type || button
   return (
-    <div className='text-white text-center p-2 text-2xl mt-10 bg-bh-btn uppercase rounded-full hover:bg-bh-lime animate-pulse'>
-      <button><Link to='/about'>More About Me</Link></button>
-    </div>
+    <>
+    {type === "internal" && (
+      <Link {...props}
+     className='flex justify-center border border-bh-btn w-full py-3 px-10 text-xl uppercase rounded-full hover:bg-bh-btn mt-4'>
+       {props.children}
+      </Link>
+    )}
+    {type === "external" && (
+      <a
+        {...props}
+        className="button flex items-center w-max py-3 px-10 font-dosis uppercase text-xl font-bold text-bensonpink hover:text-white"
+      >
+        {props.children}
+      </a>
+    )}
+    {type === "button" && (
+      <button
+        {...props}
+        className="flex items-center border border-bensonpink w-max py-3 px-10 font-dosis uppercase text-xl font-bold text-bensonpink hover:text-white"
+      >
+        {" "}
+        {props.children}
+      </button>
+    )}
+     
+  </>
+      
   )
 }
 
