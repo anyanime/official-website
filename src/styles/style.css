@@ -4,12 +4,11 @@
 
 * {
     /* font-family: sans-serif, Cambria; */
-    font-family: 'Merienda', cursive;
+    /* font-family: 'Merienda', cursive; */
     /* background-color: black; */
     margin: 0;
     padding: 3;
 }
-
 
 /* p, h1, h2, h3 {
     text-align: left;
@@ -64,11 +63,10 @@ p {
     background-color: rgb(3, 3, 131);
     font-size: larger;
 } */
-
+/* 
 @media (min-width: 748px) {
     p, h1, h2, h3 {
         text-align: right;    
     }
-
     
-}
+} */

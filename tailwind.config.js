@@ -6,10 +6,14 @@ module.exports = {
   ],
   theme: {
     colors: {
-      'blue': '#1d4ed8',
-      'white': '#fafafa',
+      'white': '#f8fafc',
+      'bh-lime': '#f0abfc',
+      'bh-btn-dark': '#a855f7',
+      'bh-btn': '#c084fc',
       'dark-blue': '#1e40af',
-      'black': '#171717'
+      'black': '#334155',
+      'bh-yellow': '#fef08a',
+      'bh-red': '#f87171',
     },
     fontFamily: {
 

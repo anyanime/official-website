@@ -1,24 +1,25 @@
 import React from 'react';
 import Image from '../images/logo.png';
-import { Link } from 'gatsby';
+import NavLink from './NavLink';
 
 
 const Header = () => {
   return (
-    <nav className='m-0 flex justify-between p-2'>
-      <img className='h-9 w-8 rounded-full' src={Image} alt='logo' />
-      <div className='text-white text-lg space-x-3 mr-6'>
-        <Link to='/'>Home</Link>
-        <Link to='/about'>About</Link>
-        <Link to='/contact'>Reach Out</Link>
-        <Link to='/portfolio'>Portfolio</Link>
-      </div>
+    <div className='m-0 flex justify-between p-4'>
+      <img className='h-9 w-8 rounded-full' src={Image} alt='logo' />      
+      <nav>
+        <NavLink to='/'>Home</NavLink>
+        <NavLink to='/about'>About</NavLink>
+        <NavLink to='/portfolio'>Portfolio</NavLink>
+        <NavLink to='/contact'>Reach Out</NavLink>
       {/* <ul>
         <li className='active'><a href='#home'>HOME</a></li>
         <li><a href='#about'>ABOUT</a></li>
         <li><a href='#contact'>CONTACT</a></li>
       </ul> */}
     </nav>
+    </div>
+   
   )
 }
 
