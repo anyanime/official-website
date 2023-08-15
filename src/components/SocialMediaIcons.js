@@ -6,7 +6,7 @@ import {FaFacebookSquare, FaGithubSquare, FaInstagramSquare, FaLinkedinIn, FaTwi
 
 const SocialMediaIcons = props => {
   return (
-    <div {...props} className='flex justify-center gap-4 text-4xl lg:text-5xl mt-6 text-white'>
+    <div {...props} className='flex justify-center gap-4 text-4xl lg:text-5xl text-white b-6'>
       <a href='https://github.com/anyanime' target='_blank' rel='noreferrer'>
         <FaGithubSquare />
       </a>
