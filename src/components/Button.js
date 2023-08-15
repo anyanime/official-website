@@ -7,7 +7,7 @@ const Button = props => {
     <>
     {type === "internal" && (
       <Link {...props}
-     className='flex justify-center border border-bh-btn w-full py-3 px-10 text-xl uppercase rounded-full hover:bg-bh-btn mt-4'>
+     className='flex justify-center border border-bh-btn w-full md:w-3/4 py-3 px-6 md:text-xl uppercase rounded-full hover:bg-bh-btn hover:font-medium mt-4'>
        {props.children}
       </Link>
     )}
