@@ -12,8 +12,9 @@ module.exports = {
       'bh-btn': '#c084fc',
       'dark-blue': '#1e40af',
       'black': '#334155',
-      'bh-yellow': '#fef08a',
-      'bh-red': '#f87171',
+      'bh-teal': '#2dd4bf',
+      'bh-gold': '#fff7ed',
+      'pearl': '#f8fafc'
     },
     fontFamily: {
 
