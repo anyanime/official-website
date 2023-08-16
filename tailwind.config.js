@@ -17,7 +17,9 @@ module.exports = {
       'pearl': '#f8fafc'
     },
     fontFamily: {
-
+      heading: ['Carattere', 'cursive'],
+      hello: ['Salsa', 'cursive'],
+      menu: ['Roboto Condensed', 'sans-serif']
     },
     extend: {},
   },

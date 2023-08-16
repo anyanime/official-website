@@ -1,17 +1,27 @@
 import React from 'react';
-import Image from '../images/logo.png';
 import NavLink from './NavLink';
+// import { slide as Menu } from 'react-burger-menu';
+// import { useState } from 'react';
 
 
 const Header = () => {
+  
+  // const [open, setOpen] = useState(false);
+
+  // const showSettings = () => {
+  //   event.preventDefault();
+  //   Your code to show the settings
+  // };
+
   return (
-    <div className='m-0 flex justify-between p-4'>
-      <img className='h-9 w-8 rounded-full' src={Image} alt='logo' />      
-      <nav>
+    <div className='flex justify-start items-center text-md position:fixed p-1 md:justify-between'>
+      <h1 className='md:ml-3 font-medium text-4xl text-white font-heading'>Anyanime</h1>     
+      <nav className=''>
         <NavLink to='/'>Home</NavLink>
         <NavLink to='/about'>About</NavLink>
         <NavLink to='/portfolio'>Portfolio</NavLink>
-        <NavLink to='/contact'>Reach Out</NavLink>
+        <NavLink to='/contact'>Contact</NavLink>
+        
       {/* <ul>
         <li className='active'><a href='#home'>HOME</a></li>
         <li><a href='#about'>ABOUT</a></li>

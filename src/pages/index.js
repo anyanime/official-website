@@ -14,7 +14,7 @@ const index = () => {
       <Header />  
       <div className='flex justify-evenly items-center h-5/6 flex-col-reverse text-white p-6 font-semibold md:flex-row'>
         <div className='mt-6 md:mt-2 md:w-4/12'>
-          <h1 className='text-bh-teal text-6xl md:text-9xl motion-safe:animate-bounce brightness-125'>Hello!</h1>
+          <h1 className='text-bh-teal font-hello text-6xl md:text-9xl motion-safe:animate-bounce brightness-125'>Hello!</h1>
           <h3 className='text-pearl text-xl md:text-2xl'>I am Anyanime Benson</h3>
           <h3 className='text-xl text-bh-lime md:text-3xl uppercase font-extrabold mt-3 brightness-125'>Creative Writer <br/> Software Engineer</h3>
           <p className='mt-2 text-xl text-bh-gold'>I harness my creativity as a writer
