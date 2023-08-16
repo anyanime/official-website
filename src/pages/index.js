@@ -10,9 +10,9 @@ import Copyright from '../components/Copyright';
 
 const index = () => {
   return (
-    <div className='bg-black h-full md:h-screen lg:h-full xl:h-screen p-3'>
+    <div className='bg-black h-full sm:h-screen md:h-screen lg:h-screen xl:h-screen p-3'>
       <Header />  
-      <div className='flex justify-evenly items-center h-5/6 flex-col-reverse text-white p-6 font-semibold md:flex-row'>
+      <div className='flex justify-evenly items-center h-5/6 flex-col-reverse text-white p-6 font-semibold sm:flex-col md:flex-row'>
         <div className='mt-6 md:mt-2 md:w-4/12'>
           <h1 className='text-bh-teal font-hello text-6xl md:text-9xl motion-safe:animate-bounce brightness-125'>Hello!</h1>
           <h3 className='text-pearl text-xl md:text-2xl'>I am Anyanime Benson</h3>

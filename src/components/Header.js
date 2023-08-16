@@ -14,7 +14,7 @@ const Header = () => {
   // };
 
   return (
-    <div className='flex justify-start items-center text-md position:fixed p-1 md:justify-between'>
+    <div className='flex justify-start items-center text-md p-1 md:justify-between'>
       <h1 className='md:ml-3 font-medium text-4xl text-white font-heading'>Anyanime</h1>     
       <nav className=''>
         <NavLink to='/'>Home</NavLink>
