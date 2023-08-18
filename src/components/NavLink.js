@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
+
 const NavLink = ({children, to}) => {
   return (
-    <Link className='text-white uppercase lg:text-2xl space-x-3 mr-6 hover:text-bh-lime ' to={to}>
-      {children}
+      <Link className='text-white uppercase mr-6 lg:text-2xl font-menu hover:text-bh-lime md:inline-flex' to={to}>
+        {children}
       </Link>
+   
   )
 }
 

@@ -10,36 +10,29 @@ import Copyright from '../components/Copyright';
 
 const index = () => {
   return (
-    <div className='bg-black h-full max-sm-auto md:h-screen lg:h-screen'>
-      <Header />
-      <div className='absolute rounded-full bg-bh-yellow animate-spin w-10 h-30'>
-        <div className='rounded-full bg-bh-lime animate-spin w-12 h-32' ></div>
-      </div>
-      <div className='relative flex h-6 w-6'>
-        <div className='animate-ping absolute inline-flex w-full rounded-full bg-bh-lime top-10 opacity-75' ></div>
-      </div>
-      <div className='flex justify-center items-center gap-x-6 h-5/6 flex-col-reverse text-white p-6 font-semibold md:flex-row'>
-        <div className='justify-start items-center p-6 lg:w-3/12'>
-          <h1 className='font-medium text-5xl'>Hello!</h1>
-          <h3 className='text-2xl'>I am Anyanime Benson</h3>
-          <h2 className='text-2xl text-bh-lime lg:text-4xl uppercase font-bold mt-3'>Creative Writer Software Engineer</h2>
-          <p className='mt-4 text-xl sm:text-xl'>I harness my creativity as a writer
+    <div className='bg-black text-white h:full md:h-screen lg:h-screen xl:h-screeen p-3'>
+      <Header />  
+      <div className='flex justify-evenly items-center w-full h-5/6 flex-col-reverse p-6 font-semibold md:flex-row'>
+        <div className='mt-6 md:mt-2 md:w-4/12'>
+          <h1 className='text-bh-teal font-hello text-6xl md:text-8xl xl:text-9xl motion-safe:animate-bounce brightness-125'>Hello!</h1>
+          <h3 className='text-pearl text-xl md:text-2xl'>I am Anyanime Benson</h3>
+          <h3 className='text-xl text-bh-lime md:text-3xl uppercase font-extrabold mt-3 brightness-125'>Creative Writer <br/> Software Engineer</h3>
+          <p className='mt-2 text-xl text-bh-gold'>I harness my creativity as a writer
             and knowledge of technology with practical ideas
             to bring about solutions to problem while maintaining 
             a fun and productive work environment.</p>
           <div>
           <Button type='internal' to='/about'>More About Me</Button> 
-          <SocialMediaIcon />
           </div>
         </div>
         <div>
-          <img className='h-full w-96 rounded-full justify-end' src={image} alt='Protrait of Anyanime Benson'/>
-          <div className='relative rounded-full bg-bh-lime animate-spin w-10 h-30'>
-            <div className='rounded-full bg-bh-red animate-spin w-12 h-32' ></div>
-           </div>
+          <img className='h-full w-96 rounded-full ' src={image} alt='Protrait of Anyanime Benson'/>
         </div>
       </div>
+      <footer className='flex justify-center flex-col gap-2'>
+      <SocialMediaIcon />
       <Copyright />
+      </footer>
     </div>
   )
 }
