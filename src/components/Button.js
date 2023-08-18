@@ -14,7 +14,7 @@ const Button = props => {
     {type === "external" && (
       <a
         {...props}
-        className="button flex items-center w-max py-3 px-10 font-dosis uppercase text-xl font-bold text-bensonpink hover:text-white"
+        className="flex w-max md:hidden font-dosis uppercase text-3xl font-bold"
       >
         {props.children}
       </a>
