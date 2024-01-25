@@ -4,7 +4,7 @@ import Layout from './layout';
 const about = () => {
   return (
     <Layout>
-        <p>This page is in development!!!</p>
+        <p>This page is under development!!!</p>
     </Layout>
   )
 }
