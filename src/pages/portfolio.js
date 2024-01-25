@@ -4,7 +4,7 @@ import Layout from './layout'
 const portfolio = () => {
   return (
    <Layout>
-        <p>I am a very bad boy</p>
+        <h1>This page is in development!!!</h1>
     </Layout>
   )
 }
